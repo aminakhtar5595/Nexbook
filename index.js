@@ -9,6 +9,7 @@ const port = process.env.PORT || 5000;
 connectDb();
 app.use(express.json());
 app.use('/api/contacts', require('../Nexbook/routes/contactRoutes'));
+app.use('/api/users', require('../Nexbook/routes/userRoutes'));
 app.use(errorHandler);
 
 app.listen(port, () => {
