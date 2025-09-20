@@ -37,4 +37,14 @@ This app provides a simple API for users to manage their contacts securely using
 2. Install dependencies:
 ```bash
 npm install
+```
+
+3. Install dependencies:
+```bash
+npm install
+```
+
+3. Install dependencies:
+```bash
+npm install
 
