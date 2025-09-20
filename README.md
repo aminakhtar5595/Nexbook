@@ -34,8 +34,7 @@ This app provides a simple API for users to manage their contacts securely using
    git clone https://github.com/aminakhtar5595/Nexbook.git
    cd contact-manager-backend
 
----
-
 2. Install dependencies:
 ```bash
 npm install
+
