@@ -45,11 +45,34 @@ npm install
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
 PORT=5000
-
 ```
 
 4. Start the application:
 ```bash
 npm start
+```
 
+---
 
+## 🎨 API Endpoints
+Authentication
+* POST /api/auth/register: Register a new user
+
+   * Body:
+```bash
+{
+  "username": "JohnDoe",
+  "email": "johndoe@example.com",
+  "password": "securepassword"
+}
+```
+
+* POST /api/auth/login: Login to get a JWT token
+
+   * Body:
+```
+{
+  "email": "johndoe@example.com",
+  "password": "securepassword"
+}
+```  
