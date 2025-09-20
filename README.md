@@ -55,7 +55,7 @@ npm start
 ---
 
 ## 🎨 API Endpoints
-#Authentication
+# Authentication
 * POST /api/auth/register: Register a new user
 * Body:
 ```bash
@@ -75,7 +75,7 @@ npm start
 }
 ```  
 
-###Contacts
+### Contacts
 
 * GET /api/contacts: Get all contacts (requires authentication)
    * Authorization: Bearer token in the header
