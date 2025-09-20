@@ -55,7 +55,7 @@ npm start
 ---
 
 ## 🎨 API Endpoints
-Authentication
+#Authentication
 * POST /api/auth/register: Register a new user
 * Body:
 ```bash
@@ -75,7 +75,7 @@ Authentication
 }
 ```  
 
-Contacts
+###Contacts
 
 * GET /api/contacts: Get all contacts (requires authentication)
    * Authorization: Bearer token in the header
@@ -152,7 +152,8 @@ Example tests:
 git checkout -b feature/your-feature
 ```
 3. Commit your changes 
-```git commit -am 'Add new feature'
+```
+git commit -am 'Add new feature'
 ```
 4. Push to the branch 
 ```
