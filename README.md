@@ -1,4 +1,4 @@
-# 📇 Contact Manager
+# 📇 Nexbook
 
 A **Node.js** and **Express** based backend application for managing contacts.  
 This app provides a simple API for users to manage their contacts securely using **JWT** authentication and **MongoDB** for data storage.
