@@ -57,8 +57,7 @@ npm start
 ## 🎨 API Endpoints
 Authentication
 * POST /api/auth/register: Register a new user
-
-   * Body:
+* Body:
 ```bash
 {
   "username": "JohnDoe",
@@ -69,7 +68,7 @@ Authentication
 
 * POST /api/auth/login: Login to get a JWT token
 
-   * Body:
+* Body:
 ```
 {
   "email": "johndoe@example.com",
