@@ -109,8 +109,8 @@ npm start
 
 ## 🛡️ Authentication Middleware
 
-This app uses JWT (JSON Web Tokens) for user authentication.
-After logging in, the user will receive a JWT token, which must be included in the Authorization header as a Bearer token for all protected routes.
+This app uses ##JWT## (JSON Web Tokens) for user authentication.
+After logging in, the user will receive a JWT token, which must be included in the ##Authorization## header as a Bearer token for all protected routes.
 
 Example header:
 ```
@@ -135,8 +135,8 @@ Example error response:
 
 ## 🧪 Testing
 
-You can use Postman or Insomnia to test the API endpoints manually.
-For unit testing, consider using Jest or Mocha.
+You can use ##Postman## or ##Insomnia## to test the API endpoints manually.
+For unit testing, consider using ##Jest## or ##Mocha##.
 
 Example tests:
 - Verify user registration and login flow.
@@ -166,9 +166,4 @@ git push origin feature/your-feature
 
 ## 📜 License
 
-This project is licensed under the MIT License.
-
-- Item 1
-- Item 2
-  - Subitem 2.1
-  - Subitem 2.2
+This project is licensed under the ##MIT License##.
