@@ -39,12 +39,17 @@ This app provides a simple API for users to manage their contacts securely using
 npm install
 ```
 
-3. Install dependencies:
+3. Set up environment variables:
+* Create a .env file in the root directory with the following content:
 ```bash
-npm install
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+PORT=5000
+
 ```
 
-3. Install dependencies:
+4. Start the application:
 ```bash
-npm install
+npm start
+
 
