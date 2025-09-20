@@ -40,7 +40,7 @@ npm install
 ```
 
 3. Set up environment variables:
-* Create a .env file in the root directory with the following content:
+- Create a .env file in the root directory with the following content:
 ```bash
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
@@ -55,9 +55,9 @@ npm start
 ---
 
 ## 🎨 API Endpoints
-# Authentication
-* POST /api/auth/register: Register a new user
-* Body:
+### Authentication
+- POST /api/auth/register: Register a new user
+   - Body:
 ```bash
 {
   "username": "JohnDoe",
@@ -66,8 +66,8 @@ npm start
 }
 ```
 
-* POST /api/auth/login: Login to get a JWT token
-* Body:
+- POST /api/auth/login: Login to get a JWT token
+   - Body:
 ```
 {
   "email": "johndoe@example.com",
@@ -77,10 +77,11 @@ npm start
 
 ### Contacts
 
-* GET /api/contacts: Get all contacts (requires authentication)
-   * Authorization: Bearer token in the header
-* POST /api/contacts: Create a new contact (requires authentication)
-   *Body:
+- GET /api/contacts: Get all contacts (requires authentication)
+   - Authorization: Bearer token in the header
+   
+- POST /api/contacts: Create a new contact (requires authentication)
+   - Body:
 ```
 {
   "name": "John Doe",
@@ -90,9 +91,9 @@ npm start
 }
 ```
 
-* GET /api/contacts/:id: Get a specific contact by ID (requires authentication)
-* PUT /api/contacts/:id: Update a contact by ID (requires authentication)
-   * Body:
+- GET /api/contacts/:id: Get a specific contact by ID (requires authentication)
+- PUT /api/contacts/:id: Update a contact by ID (requires authentication)
+   - Body:
 ```
 {
   "name": "John Doe Updated",
@@ -138,9 +139,9 @@ You can use Postman or Insomnia to test the API endpoints manually.
 For unit testing, consider using Jest or Mocha.
 
 Example tests:
-* Verify user registration and login flow.
-* Test CRUD operations for contacts.
-* Test authentication with valid and invalid JWT tokens.
+- Verify user registration and login flow.
+- Test CRUD operations for contacts.
+- Test authentication with valid and invalid JWT tokens.
 
 ---
 
